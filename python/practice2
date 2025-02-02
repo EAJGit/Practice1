@@ -1,0 +1,17 @@
+#coin = input
+
+#if int(coin) <= 1:
+   # print('thats alot of coins!')
+#elif int(coin) >= 2:
+    #print('Thats an ok amount of coins')
+#else:
+    #print('Thats terrible!')
+
+age = input('Input your age')
+
+if int(age) == 16:
+   print('You are 16')
+elif int(age) >= 15:
+   print('You are really young')
+else:
+   print('You are a baby')

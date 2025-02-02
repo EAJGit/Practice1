@@ -1,0 +1,16 @@
+#x=1
+#y=3
+
+#if x==2 and X + y==5:
+ #print('ran')
+#else:
+ #print('other option')
+
+#for x in range (0,10,6):
+    #print(x)
+
+x= 5
+while x== 5:
+ name = input('put something in the keyboard')
+ if name == 'end':
+   break
