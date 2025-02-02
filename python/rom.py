@@ -3,6 +3,7 @@ import random
 low = 1
 high = 100
 dice = random.randint(low, high)
+print(dice)
 #origin of character
 
 if dice <31:
@@ -35,8 +36,8 @@ if dice >0 and  dice <60:
    elif dice >80 and dice <97:
         print('Fighting:IN')
    else:
-        print('Fighting')
-
+        print('Fighting:AM')
+        print(dice)
 
 
    if dice >0 and  dice <60:
@@ -57,6 +58,7 @@ if dice >0 and  dice <60:
         print('Agility:IN')
    else:
         print('Agility:AM')
+        print(dice)
 
 
 
@@ -78,6 +80,7 @@ if dice >0 and  dice <60:
         print('Strength:IN')
    else:
         print('Strength:AM')
+        print(dice)
 
 
 
@@ -99,6 +102,7 @@ if dice >0 and  dice <60:
         print('Endurance:IN')
    else:
         print('Endurance:AM')
+        print(dice)
 
   
 
@@ -120,6 +124,7 @@ if dice >0 and  dice <60:
         print('Reason:IN')
    else:
         print('Reason:AM')
+        print(dice)
 
 
 
@@ -141,6 +146,7 @@ if dice >0 and  dice <60:
         print('Intution:IN')
    else:
         print('Intution:AM')
+        print(dice)
 
 
 
@@ -162,6 +168,7 @@ if dice >0 and  dice <60:
         print('Psyche:IN')
    else:
         print('Psyche:AM')
+        print(dice)
 
 
 #Realms of magic origin
