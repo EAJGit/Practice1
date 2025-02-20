@@ -155,7 +155,7 @@ if dice <61:
        
 
    dice = random.randint(low, high)
-   print(dice)
+  
 
    if dice <61:
       dice = random.randint(low, high)
@@ -175,8 +175,16 @@ if dice <61:
         print('Psyche:IN')
    else:
         print('Psyche:AM')
-   print(dice)
+   #print(dice)
 
+   if dice >60 and dice <91:
+      dice = random.randint(low, high)
+   #print('X')
+
+
+
+
+       
  
 #stats for Hit-Tech Wonder 
 
@@ -194,7 +202,7 @@ if dice >60 and dice <91:
        print('Figthing:EX')
    else:
        print('Fighting:RM')
-       print(dice)
+       #print(dice)
 
    dice = random.randint(low, high) 
 
@@ -213,7 +221,7 @@ if dice >60 and dice <91:
        print('Agility:EX')
    else:
        print('Agility:RM')
-   print(dice)
+   #print(dice)
 
    dice = random.randint(low, high)  
 
@@ -312,6 +320,7 @@ if dice >60 and dice <91:
 
 
 dice = random.randint(low, high)
+print(dice)
 
 #Realms of magic origin
 if dice <= 10:
