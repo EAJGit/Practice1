@@ -38,10 +38,10 @@ if dice <61:
         print('Fighting:IN')
    else:
         print('Fighting:AM')
-   #print(dice)
+ 
 
    dice = random.randint(low, high) 
-       
+   #print(dice)
 
    if dice <61:
       dice = random.randint(low, high)
@@ -61,10 +61,11 @@ if dice <61:
         print('Agility:IN')
    else:
         print('Agility:AM')
-   #print(dice)
+   
      
 
    dice = random.randint(low, high)
+   #print(dice)
 
    if dice <61:
       dice = random.randint(low, high)
@@ -84,13 +85,14 @@ if dice <61:
         print('Strength:IN')
    else:
         print('Strength:AM')
-   #print(dice)
+
       
 
    dice = random.randint(low, high)
+   #print(dice)
 
    if dice <61:
-      dice = random.randint(low, high)
+     dice = random.randint(low, high)
    if dice >0 and dice <6:
        print('Endurance:FB')
    elif dice >5 and dice <11:
@@ -107,9 +109,10 @@ if dice <61:
         print('Endurance:IN')
    else:
         print('Endurance:AM')
-   #print(dice)
+   
        
-   dice = random.randint(low, high) 
+   dice = random.randint(low, high)
+   #print(dice)
 
    if dice <61:
       dice = random.randint(low, high)
@@ -129,9 +132,9 @@ if dice <61:
         print('Reason:IN')
    else:
         print('Reason:AM')
-   #print(dice)
+   print(dice)
       
-   dice = random.randint(low, high)
+   #dice = random.randint(low, high)
 
    if dice <61:
       dice = random.randint(low, high)
@@ -151,11 +154,11 @@ if dice <61:
         print('Intution:IN')
    else:
         print('Intution:AM')
-   #print(dice)
+   print(dice)
        
 
-   dice = random.randint(low, high)
-   print(dice)
+   #dice = random.randint(low, high)
+   #print(dice)
 
    if dice <61:
       dice = random.randint(low, high)
@@ -176,6 +179,7 @@ if dice <61:
    else:
         print('Psyche:AM')
    print(dice)
+
 
  
 #stats for Hit-Tech Wonder 
@@ -213,7 +217,7 @@ if dice >60 and dice <91:
        print('Agility:EX')
    else:
        print('Agility:RM')
-   print(dice)
+   #print(dice)
 
    dice = random.randint(low, high)  
 

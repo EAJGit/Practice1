@@ -142,10 +142,7 @@ if dice >60 and dice <91:
        print('Psyche:EX')
    else:
        print('Psyche:RM')
-
-
-
-
+        
   
   
    dice = random.randint(low, high)
